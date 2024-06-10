@@ -1,0 +1,26 @@
+/*Global*/
+
+.title{
+    text-align: center;
+
+    
+}
+
+.title h1{
+    font-size: 24px;
+    font-family:"Open Sans",sans-serif;
+}
+
+.title h2{
+    font-size: 16px;
+    font-family: "Open Sans",sans-serif;
+}
+
+.title p{
+    padding: 0 35% 0 35%;
+    font-family: "Ruchome piaski",sans-serif;
+    
+    }
+
+
+    
