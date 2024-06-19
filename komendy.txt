@@ -1,0 +1,8 @@
+Przykładowa komenda 
+node_modules/.bin/html-validate start --server --files "bin/html-validate.json" "index.html/html-validate.json"
+
+
+Przykładowa komenda 
+node_modules/.bin/html-validate start --server --files "bin/html-validate.json" "index.html/html-validate.json"
+
+
