@@ -1,8 +1,22 @@
-Przykładowa komenda 
-node_modules/.bin/html-validate start --server --files "bin/html-validate.json" "index.html/html-validate.json"
+Create `.htmlvalidate.json`:
 
+```js
+{
+  "extends": [
+    "html-validate:recommended"
+  ],
 
-Przykładowa komenda 
-node_modules/.bin/html-validate start --server --files "bin/html-validate.json" "index.html/html-validate.json"
+  "rules": {
+    "close-order": "error",
+    "void": ["warn", {"style": "omit"}]
+  }
+}
+
+    npm install -g html-validate
+    html-validate [OPTIONS] [FILENAME..] [DIR..]
+
+node_modules/html-validate/README.md     ścieżka paczki
+
+npm install -g html-validate index.html
 
 
