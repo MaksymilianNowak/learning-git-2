@@ -17,6 +17,6 @@ Create `.htmlvalidate.json`:
 
 node_modules/html-validate/README.md     ścieżka paczki
 
-npm install -g html-validate index.html
+npm exec html-validate index.html 
 
 
